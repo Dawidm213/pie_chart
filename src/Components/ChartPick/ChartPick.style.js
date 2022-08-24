@@ -20,7 +20,7 @@ export const Container2 = styled.div`
     margin: 1rem;
     text-align: center;
     border-radius: .7rem;
-    border: 3px solid grey;
+    border: 3px solid transparent;
     &:hover {
         border: 3px solid lightblue;
         transition-duration: .4s;

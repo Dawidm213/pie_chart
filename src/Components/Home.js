@@ -9,12 +9,13 @@ import { ChartPick } from "./ChartPick/ChartPick.js";
 
 
 function Home() {
-
+  //Charts are nice way of data visualiation so i hope this can help you build your preferable chart
   //console.log(data)
   return (
     <>
-      Charts are nice way of data visualiation so i hope this can help you build your preferable chart will this work?
+      
       <ChartPick />
+
         
     
     </>

@@ -13,7 +13,6 @@ import { Logic, newTodo } from '../../hooks/logic';
 export const PieChartBuild = () => {
 
     const { chartData, dispatch, name, setName, number, setNumber, inputList, setInputList, empty, setEmpty, checked, setChecked } = Logic();
-    const [Testing, setTesting] = useState([]);
 
     function handleSubmit(e){
       e.preventDefault();
@@ -43,10 +42,6 @@ export const PieChartBuild = () => {
         }
         
     };
-    const handleData = () => {
-        dispatch({type: ACTION.ADD_CHARTDATA })
-    }
-
     
 
     return(
@@ -54,7 +49,7 @@ export const PieChartBuild = () => {
             <input type="checkbox" name='3D' value={checked} onChange={() => handleCheckbox('3D')}/>3D
             <span style={{display: empty ? 'block': 'none'}}> Name can't be empty </span>
             <button onClick={handleCreate}> Create </button>
-            <button onClick={handleData}>Add</button>
+            <button onClick={() => dispatch({type: ACTION.ADD_CHARTDATA })}>Add</button>
             <DataContainer data={chartData.length}>
 
               <ChartData key={chartData.id} chartData={chartData} dispatch={dispatch} /> 

@@ -22,5 +22,7 @@ export const Container = styled.div`
    input::-webkit-inner-spin-button {
    -webkit-appearance: none;
    margin: 0;
+   
 }
+   color: white;
 `

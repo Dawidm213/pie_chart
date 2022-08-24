@@ -9,7 +9,6 @@ export const Container = styled.div`
     font-weight: bold;
     display: flex;
     justify-content: space-around;
-    background-color: lightblue;
 
     a {
         color: white;

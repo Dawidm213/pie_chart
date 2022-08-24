@@ -8,7 +8,6 @@ export function ChartBuild({ chartData, checked }){
             <Chart
             width={'100%'}
             height={'300px'}
-            graphID='Graph'
             chartType="PieChart"
             loader={<div>Loading Pie Chart</div>}
             data={chartData.map(data => {
@@ -18,6 +17,7 @@ export function ChartBuild({ chartData, checked }){
             options={{
                 title: `In Total`,
                 is3D: checked,
+                backgroundColor: 'transparent',
                 titleTextStyle: {
                   fontSize: 44
               }
