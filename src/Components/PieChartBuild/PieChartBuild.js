@@ -12,20 +12,8 @@ import { Logic, newTodo } from '../../hooks/logic';
 
 export const PieChartBuild = () => {
 
-    const { chartData, dispatch, name, setName, number, setNumber, inputList, setInputList, empty, setEmpty, checked, setChecked } = Logic();
+    const { chartData, dispatch, inputList, setInputList, empty, setEmpty, checked, setChecked } = Logic();
 
-    function handleSubmit(e){
-      e.preventDefault();
-      if(name === ''){
-        setEmpty(true)
-      }else{
-        setEmpty(false)
-        dispatch({ type: ACTION.ADD_CHARTDATA,  name, number });
-        setName('');
-        setNumber(1);
-      }
-      
-    }
   
   
     function handleCreate(){

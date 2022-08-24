@@ -24,12 +24,12 @@ function reducer( state, action ){
         return state.filter(data => data.id !== action.payload.id )
       case ACTION.ON_CHANGE:{
         const list = [...state];
-        list[action.payload.index][action.payload.fuck.name][0] = action.payload.fuck.value;
+        list[action.payload.index][action.payload.fuck.name][0] = action.payload.input.value;
         return list    
       }
       case ACTION.ON_CHANGE2:{
         const list = [...state];
-        list[action.payload.index][action.payload.fuck.name][1] = action.payload.fuck.valueAsNumber;
+        list[action.payload.index][action.payload.fuck.name][1] = action.payload.input.valueAsNumber;
         return list
         
       }
