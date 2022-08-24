@@ -17,7 +17,7 @@ export function ChartBuild({ chartData, checked }){
             options={{
                 title: `In Total`,
                 is3D: checked,
-                backgroundColor: 'transparent',
+                backgroundColor: 'grey',
                 titleTextStyle: {
                   fontSize: 44
               }

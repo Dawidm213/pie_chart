@@ -13,7 +13,7 @@ export const DataContainer = styled.div`
    display: grid;
    justify-content: center;
    align-items: center;
-   grid-template-columns: repeat(6, 12rem);
+   grid-template-columns: repeat(6, 16.6%);
    grid-template-rows: repeat(calc(${(props) => props.data} / 6 + 1), 6rem);
 `
 

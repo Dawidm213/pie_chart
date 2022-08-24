@@ -12,7 +12,7 @@ import { Logic, newTodo } from '../../hooks/logic';
 
 export const PieChartBuild = () => {
 
-    const { chartData, dispatch, inputList, setInputList, empty, setEmpty, checked, setChecked } = Logic();
+    const { chartData, dispatch, name, setName, number, setNumber, inputList, setInputList, empty, setEmpty, checked, setChecked } = Logic();
 
   
   
@@ -40,7 +40,7 @@ export const PieChartBuild = () => {
             <button onClick={() => dispatch({type: ACTION.ADD_CHARTDATA })}>Add</button>
             <DataContainer data={chartData.length}>
 
-              <ChartData key={chartData.id} chartData={chartData} dispatch={dispatch} /> 
+              <ChartData chartData={chartData} dispatch={dispatch} /> 
               
 
             </DataContainer>

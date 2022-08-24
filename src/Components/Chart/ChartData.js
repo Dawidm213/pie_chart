@@ -13,19 +13,19 @@ export default function ChartData({ chartData, dispatch }){
         <>
       {chartData.map((x, i) => {
         return (
-          <Container >
+          <Container>
             <input
               value={x.data[0]}
               name='data'
               placeholder='name'
-              onChange={e => dispatch({type: ACTION.ON_CHANGE, payload: {input: e.target, index: i }})}
+              onChange={e => dispatch({type: ACTION.ON_CHANGE, payload: {fuck: e.target, index: i }})}
             />
             <input
               type="number"
               name='data'
               value={x.data[1]}
               placeholder='0'
-              onChange={e => dispatch({type: ACTION.ON_CHANGE2, payload: {input: e.target, index: i }})}
+              onChange={e => dispatch({type: ACTION.ON_CHANGE2, payload: {fuck: e.target, index: i }})}
             />
             <div className="btn-box">
               <button onClick={() => dispatch({ type: ACTION.DELETE_CHARTDATA, payload: {id: x.id} })}>Remove</button>
