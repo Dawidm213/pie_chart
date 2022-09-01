@@ -16,6 +16,14 @@ export const ChartPick = () => {
                     <img src='https://cdn.pixabay.com/photo/2013/07/12/15/21/pie-chart-149727__340.png' alt='piechartImg' />
                 </Container2>
             </Link>
+            <Link to='/donutChart'>
+                <Container2>
+                    <Name>
+                        DONUT CHART
+                    </Name>
+                    <img src='https://www.tibco.com/sites/tibco/files/media_entity/2022-01/doughnut-chart-example.svg' alt='piechartImg' />
+                </Container2>
+            </Link>
         </Container>
     )
 }

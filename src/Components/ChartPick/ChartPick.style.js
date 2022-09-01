@@ -22,7 +22,7 @@ export const Container2 = styled.div`
     border-radius: .7rem;
     border: 3px solid transparent;
     &:hover {
-        border: 3px solid lightblue;
+        border: 3px solid #c90000;
         transition-duration: .4s;
         
     }

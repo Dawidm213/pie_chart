@@ -4,6 +4,7 @@ import Home from "./Components/Home";
 import { Header } from "./Components/Header/Header";
 import { ChartPick } from "./Components/ChartPick/ChartPick.js";
 import { PieChartBuild } from "./Components/PieChartBuild/PieChartBuild.js";
+import { DonutChartBuild } from "./Components/DonutChartBuild/DonutChartBuild.js";
 import {
   BrowserRouter as Router,
   Route,
@@ -21,6 +22,7 @@ function App() {
         <Route path="/Charts" element={<Home />} />
         <Route path="/About" element={<Home />} />
         <Route path="/pieChart" element={<PieChartBuild />} />
+        <Route path="/donutChart" element={<DonutChartBuild />} />
       </Routes>
     </>
   );
