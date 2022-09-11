@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/pie_chart/static/css/main.abcfc9f9.css",
-    "main.js": "/pie_chart/static/js/main.bd3881b4.js",
+    "main.js": "/pie_chart/static/js/main.4ffc7e97.js",
     "static/js/787.9a45561d.chunk.js": "/pie_chart/static/js/787.9a45561d.chunk.js",
     "static/media/circle-scatter-haikei.svg": "/pie_chart/static/media/circle-scatter-haikei.3e6077e40f7e701fab9f.svg",
     "index.html": "/pie_chart/index.html",
     "main.abcfc9f9.css.map": "/pie_chart/static/css/main.abcfc9f9.css.map",
-    "main.bd3881b4.js.map": "/pie_chart/static/js/main.bd3881b4.js.map",
+    "main.4ffc7e97.js.map": "/pie_chart/static/js/main.4ffc7e97.js.map",
     "787.9a45561d.chunk.js.map": "/pie_chart/static/js/787.9a45561d.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.abcfc9f9.css",
-    "static/js/main.bd3881b4.js"
+    "static/js/main.4ffc7e97.js"
   ]
 }
