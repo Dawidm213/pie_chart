@@ -10,7 +10,7 @@ import { Logic, newTodo } from '../../hooks/logic';
 //    return <ChartData key={data.id} chartData={data} dispatch={dispatch} /> 
 //})}
 
-export const DonutChartBuild = () => {
+export const DonutChart = () => {
 
     const { chartData, dispatch, name, setName, number, setNumber, inputList, setInputList, empty, setEmpty, checked, setChecked } = Logic();
 

@@ -21,7 +21,15 @@ export const ChartPick = () => {
                     <Name>
                         DONUT CHART
                     </Name>
-                    <img src='https://www.tibco.com/sites/tibco/files/media_entity/2022-01/doughnut-chart-example.svg' alt='piechartImg' />
+                    <img src='https://www.tibco.com/sites/tibco/files/media_entity/2022-01/doughnut-chart-example.svg' alt='donutChart' />
+                </Container2>
+            </Link>
+            <Link to='/diffPieChart'>
+                <Container2>
+                    <Name>
+                        DIFF PIE CHART
+                    </Name>
+                    <img src='https://patmartin.gitbooks.io/dex-docs/content/tasks/visualization/google/DiffPieChart_Screen1.png' alt='Diff Pie Chart' />
                 </Container2>
             </Link>
         </Container>
