@@ -18,7 +18,7 @@ function App() {
     <>
       <Header />
       <Routes>
-        <Route path="/https://dawidm213.github.io/pie_chart" element={<Home />} />
+        <Route path="/pie_chart" element={<Home />} />
         <Route path="/Charts" element={<Home />} />
         <Route path="/About" element={<Home />} />
         <Route path="/pieChart" element={<PieChartBuild />} />
